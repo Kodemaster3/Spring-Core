@@ -1,0 +1,47 @@
+<!--&lt;!&ndash;<?xml version="1.0" encoding="UTF-8"?>&ndash;&gt;-->
+<!--&lt;!&ndash;<beans xmlns="http://www.springframework.org/schema/beans"&ndash;&gt;-->
+<!--&lt;!&ndash;       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&ndash;&gt;-->
+<!--&lt;!&ndash;       xmlns:context="http://www.springframework.org/schema/context"&ndash;&gt;-->
+<!--&lt;!&ndash;       xsi:schemaLocation="http://www.springframework.org/schema/beans&ndash;&gt;-->
+<!--&lt;!&ndash;        http://www.springframework.org/schema/beans/spring-beans.xsd&ndash;&gt;-->
+<!--&lt;!&ndash;        http://www.springframework.org/schema/context&ndash;&gt;-->
+<!--&lt;!&ndash;        http://www.springframework.org/schema/context/spring-context.xsd">&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;    <context:component-scan base-package="ua.lelik.springtest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;    <context:property-placeholder location="classpath:musicPlayer.properties"/>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;    <context:property-placeholder location="classpath:musicPlayer.properties"/>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;    <bean id="musicBean1"&ndash;&gt;-->
+<!--    &lt;!&ndash;          class="ua.lelik.springtest.ClassicalMusic"&ndash;&gt;-->
+<!--    &lt;!&ndash;          scope="singleton"&ndash;&gt;-->
+<!--    &lt;!&ndash;          init-method="doMyInit"&ndash;&gt;-->
+<!--    &lt;!&ndash;          destroy-method="destroyMethod"&ndash;&gt;-->
+<!--    &lt;!&ndash;          factory-method="getClassicalMusic">&ndash;&gt;-->
+<!--    &lt;!&ndash;    </bean>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;    <bean id="musicBean2"&ndash;&gt;-->
+<!--    &lt;!&ndash;          class="ua.lelik.springtest.InstrumentalMusic">&ndash;&gt;-->
+<!--    &lt;!&ndash;    </bean>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;    <bean id="musicBean3"&ndash;&gt;-->
+<!--    &lt;!&ndash;          class="ua.lelik.springtest.RockMusic">&ndash;&gt;-->
+<!--    &lt;!&ndash;    </bean>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;    <bean id="musicPlayer"&ndash;&gt;-->
+<!--    &lt;!&ndash;          class="ua.lelik.springtest.MusicPlayer"&ndash;&gt;-->
+<!--    &lt;!&ndash;          scope="prototype">&ndash;&gt;-->
+<!--    &lt;!&ndash;        <property name="musicList">&ndash;&gt;-->
+<!--    &lt;!&ndash;            <list>&ndash;&gt;-->
+<!--    &lt;!&ndash;                <ref bean="musicBean1"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;                <ref bean="musicBean2"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;                <ref bean="musicBean3"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;            </list>&ndash;&gt;-->
+<!--    &lt;!&ndash;        </property>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;        <property name="name" value="${musicPlayer.name}"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <property name="volume" value="${musicPlayer.volume}"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;    </bean>&ndash;&gt;-->
+
+<!--</beans>-->
